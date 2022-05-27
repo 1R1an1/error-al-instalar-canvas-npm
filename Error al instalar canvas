@@ -1,0 +1,70 @@
+PS C:\Users\ianga\OneDrive\Programar\discord\bots\1R1an1 bien y des> npm i canvas
+npm ERR! code 1
+npm ERR! path C:\Users\ianga\OneDrive\Programar\discord\bots\1R1an1 bien y des\node_modules\canvas
+npm ERR! command failed
+npm ERR! command C:\Windows\system32\cmd.exe /d /s /c node-pre-gyp install --fallback-to-build
+npm ERR! Failed to execute 'E:\programas\nodejs\node.exe E:\programas\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js configure --fallback-to-build --module=C:\Users\ianga\OneDrive\Programar\discord\bots\1R1an1 bien y des\node_modules\canvas\build\Release\canvas.node --module_name=canvas --module_path=C:\Users\ianga\OneDrive\Programar\discord\bots\1R1an1 bien y des\node_modules\canvas\build\Release --napi_version=8 --node_abi_napi=napi --napi_build_version=0 --node_napi_label=node-v108' (1)
+npm ERR! node-pre-gyp info it worked if it ends with ok
+npm ERR! node-pre-gyp info using node-pre-gyp@1.0.9
+npm ERR! node-pre-gyp info using node@18.0.0 | win32 | x64
+npm ERR! node-pre-gyp info check checked for "C:\Users\ianga\OneDrive\Programar\discord\bots\1R1an1 bien y des\node_modules\canvas\build\Release\canvas.node" (not found)
+npm ERR! node-pre-gyp http GET https://github.com/Automattic/node-canvas/releases/download/v2.9.1/canvas-v2.9.1-node-v108-win32-unknown-x64.tar.gz
+npm ERR! node-pre-gyp ERR! install response status 404 Not Found on https://github.com/Automattic/node-canvas/releases/download/v2.9.1/canvas-v2.9.1-node-v108-win32-unknown-x64.tar.gz
+npm ERR! node-pre-gyp WARN Pre-built binaries not installable for canvas@2.9.1 and node@18.0.0 (node-v108 ABI, unknown) (falling back to source compile with node-gyp)
+npm ERR! node-pre-gyp WARN Hit error response status 404 Not Found on https://github.com/Automattic/node-canvas/releases/download/v2.9.1/canvas-v2.9.1-node-v108-win32-unknown-x64.tar.gz
+npm ERR! gyp info it worked if it ends with ok
+npm ERR! gyp info using node-gyp@9.0.0
+npm ERR! gyp info using node@18.0.0 | win32 | x64
+npm ERR! gyp info ok
+npm ERR! gyp info it worked if it ends with ok
+npm ERR! gyp info using node-gyp@9.0.0
+npm ERR! gyp info using node@18.0.0 | win32 | x64
+npm ERR! gyp info find Python using Python version 3.9.6 found at "E:\programas\python\python.exe"
+npm ERR! gyp ERR! find VS
+npm ERR! gyp ERR! find VS msvs_version not set from command line or npm config
+npm ERR! gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+npm ERR! gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer, try re-running with '--loglevel silly' for more details
+npm ERR! gyp ERR! find VS looking for Visual Studio 2015
+npm ERR! gyp ERR! find VS - not found
+npm ERR! gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+npm ERR! gyp ERR! find VS
+npm ERR! gyp ERR! find VS **************************************************************
+npm ERR! gyp ERR! find VS You need to install the latest version of Visual Studio
+npm ERR! gyp ERR! find VS including the "Desktop development with C++" workload.
+npm ERR! gyp ERR! find VS For more information consult the documentation at:
+npm ERR! gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+npm ERR! gyp ERR! find VS **************************************************************
+npm ERR! gyp ERR! find VS
+npm ERR! gyp ERR! configure error
+npm ERR! gyp ERR! stack Error: Could not find any Visual Studio installation to use
+npm ERR! gyp ERR! stack     at VisualStudioFinder.fail (E:\programas\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:122:47)
+npm ERR! gyp ERR! stack     at E:\programas\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:75:16   
+npm ERR! gyp ERR! stack     at VisualStudioFinder.findVisualStudio2013 (E:\programas\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:363:14)
+npm ERR! gyp ERR! stack     at E:\programas\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:71:14   
+npm ERR! gyp ERR! stack     at E:\programas\nodejs\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:384:16  
+npm ERR! gyp ERR! stack     at E:\programas\nodejs\node_modules\npm\node_modules\node-gyp\lib\util.js:54:7
+npm ERR! gyp ERR! stack     at E:\programas\nodejs\node_modules\npm\node_modules\node-gyp\lib\util.js:33:16
+npm ERR! gyp ERR! stack     at ChildProcess.exithandler (node:child_process:395:5)
+npm ERR! gyp ERR! stack     at ChildProcess.emit (node:events:527:28)
+npm ERR! gyp ERR! stack     at maybeClose (node:internal/child_process:1090:16)
+npm ERR! gyp ERR! System Windows_NT 10.0.19044
+npm ERR! gyp ERR! command "E:\\programas\\nodejs\\node.exe" "E:\\programas\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "configure" "--fallback-to-build" "--module=C:\\Users\\ianga\\OneDrive\\Programar\\discord\\bots\\1R1an1 bien y des\\node_modules\\canvas\\build\\Release\\canvas.node" "--module_name=canvas" "--module_path=C:\\Users\\ianga\\OneDrive\\Programar\\discord\\bots\\1R1an1 bien y des\\node_modules\\canvas\\build\\Release" "--napi_version=8" "--node_abi_napi=napi" "--napi_build_version=0" "--node_napi_label=node-v108"
+npm ERR! gyp ERR! cwd C:\Users\ianga\OneDrive\Programar\discord\bots\1R1an1 bien y des\node_modules\canvas
+npm ERR! gyp ERR! node -v v18.0.0
+npm ERR! gyp ERR! node-gyp -v v9.0.0
+npm ERR! gyp ERR! not ok
+npm ERR! node-pre-gyp ERR! build error
+npm ERR! node-pre-gyp ERR! stack Error: Failed to execute 'E:\programas\nodejs\node.exe E:\programas\nodejs\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js configure --fallback-to-build --module=C:\Users\ianga\OneDrive\Programar\discord\bots\1R1an1 bien y des\node_modules\canvas\build\Release\canvas.node --module_name=canvas --module_path=C:\Users\ianga\OneDrive\Programar\discord\bots\1R1an1 bien y des\node_modules\canvas\build\Release --napi_version=8 --node_abi_napi=napi --napi_build_version=0 --node_napi_label=node-v108' (1)
+npm ERR! node-pre-gyp ERR! stack     at ChildProcess.<anonymous> (C:\Users\ianga\OneDrive\Programar\discord\bots\1R1an1 bien y des\node_modules\@mapbox\node-pre-gyp\lib\util\compile.js:89:23)
+npm ERR! node-pre-gyp ERR! stack     at ChildProcess.emit (node:events:527:28)
+npm ERR! node-pre-gyp ERR! stack     at maybeClose (node:internal/child_process:1090:16)
+npm ERR! node-pre-gyp ERR! stack     at ChildProcess._handle.onexit (node:internal/child_process:302:5)
+npm ERR! node-pre-gyp ERR! System Windows_NT 10.0.19044
+npm ERR! node-pre-gyp ERR! command "E:\\programas\\nodejs\\node.exe" "C:\\Users\\ianga\\OneDrive\\Programar\\discord\\bots\\1R1an1 bien y des\\node_modules\\@mapbox\\node-pre-gyp\\bin\\node-pre-gyp" "install" "--fallback-to-build"
+npm ERR! node-pre-gyp ERR! cwd C:\Users\ianga\OneDrive\Programar\discord\bots\1R1an1 bien y des\node_modules\canvas        
+npm ERR! node-pre-gyp ERR! node -v v18.0.0
+npm ERR! node-pre-gyp ERR! node-pre-gyp -v v1.0.9
+npm ERR! node-pre-gyp ERR! not ok
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\ianga\AppData\Local\npm-cache\_logs\2022-05-27T01_13_53_443Z-debug-0.log
